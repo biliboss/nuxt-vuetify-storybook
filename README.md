@@ -1,22 +1,13 @@
 # nuxt-vuetify-storybook
 
-> A teste with storybook configuration
+> A test with storybook configuration
 
-## Build Setup
+## Problem
 
-``` bash
-# install dependencies
-$ npm install
+After a painful experience trying to setup storybook in a Nuxt + Vuetify application, I created this repo to trying to solve this enigma
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Solving
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+1. Create Nuxt Project ith Vuetify
+2. Add Storybook with auto setup
+3. The key is the config.js in .storybook
